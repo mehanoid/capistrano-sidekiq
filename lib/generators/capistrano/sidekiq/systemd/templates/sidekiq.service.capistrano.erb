@@ -11,7 +11,7 @@ ExecReload=/bin/kill -TSTP $MAINPID
 ExecStop=/bin/kill -TERM $MAINPID
 
 RestartSec=1
-Restart=on-failure
+Restart=always
 
 SyslogIdentifier=sidekiq
 
